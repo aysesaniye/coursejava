@@ -7,6 +7,6 @@ public class StringToLowerCase {
         String text = "Merhaba Dunya";
 
         System.out.println("orijinal hali = " + text);
-        System.out.println("buyuk harf hali = " + text.toUpperCase());
+        System.out.println("kucuk harf hali = " + text.toLowerCase());
     }
 }

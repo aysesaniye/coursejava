@@ -33,13 +33,13 @@ public class UniversiteDersKayit {
 
         //   Lesson ders2=new Lesson():
 
-             // metod static oldugundan nesne tanimlanmasina gerk kalmadan
-             // direk cagrilabiliyor.asagidaki gibi
-             Lesson mat101=Lesson.createLesson("mat101", 6);
-             Lesson fiz101=Lesson.createLesson("fiz101", 4);
-             Lesson java101=Lesson.createLesson("java101", 6);
+        // metod static oldugundan nesne tanimlanmasina gerk kalmadan
+        // direk cagrilabiliyor.asagidaki gibi
+        Lesson mat101 = Lesson.createLesson("mat101", 6);
+        Lesson fiz101 = Lesson.createLesson("fiz101", 4);
+        Lesson java101 = Lesson.createLesson("java101", 6);
 
-             Student mehmet = Student.createStudent("Mehmet", 20);
+           /*  Student mehmet = Student.createStudent("Mehmet", 20);
              Student ayse = Student.createStudent("Ayse", 12);
 
              mehmet.lessonAdd(mat101);
@@ -53,4 +53,10 @@ public class UniversiteDersKayit {
     }
 
 
+}
+}
+}
+            }
+            }*/
+    }
 }

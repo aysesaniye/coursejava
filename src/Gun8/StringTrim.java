@@ -4,6 +4,7 @@ import javax.swing.plaf.synth.SynthOptionPaneUI;
 
 public class StringTrim {
     public static void main(String[] args) {
+
         //trim : stringin basinda ve sonunda olan bosluk karakterlerini temizler
 
         String text="    Merhaba  Dunya   ";

@@ -2,6 +2,7 @@ package Gun7;
 
 public class StringLastIndexOf {
     public static void main(String[] args) {
+
       // String icinde aranan karakter(ler)in sindan itibaren ilk indexini verir
       // indexOf un sondan olan hali fakat index numaralari degismez.
 

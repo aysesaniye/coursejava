@@ -2,8 +2,9 @@ package Gun7;
 
 public class StringIndexOf {
     public static void main(String[] args) {
-        //Verilen karakter(ler)in string  icersindeki baslangic indexini verir.
-        //contains den farkli indexini verir , contains ise treu false
+
+        // Verilen karakter(ler)in string  icersindeki baslangic indexini verir.
+        // contains den farkli indexini verir , contains ise true false
 
         String text="Good";
         System.out.println("G harfinin indexi = "+text.indexOf("G") ); // Indexler 0 dan baslar

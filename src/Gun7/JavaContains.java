@@ -2,7 +2,8 @@ package Gun7;
 
 public class JavaContains {
     public static void main(String[] args) {
-        //bir stringin icerisinde karakter(ler)in var olup olmadigini kontrol eder.
+        // Bir stringin icerisinde karakter(ler)in var olup olmadigini kontrol eder.
+        // Sonucu boolean degiskeni olarak dondurur.
 
         String str = "Hello";
 

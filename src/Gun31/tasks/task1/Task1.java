@@ -5,12 +5,11 @@ import java.util.ArrayList;
 public class Task1 {
     public static void main(String[] args) {
 
-
         // create class student with fields
         // string name, int not
         // Daha sonra 3 tane ogrenci ve notu olusturun. ve ogrencileri bir ArrayList e ekleyin.
         // Daha sonra ogrenci bilgilerini yazdiran bir metod yazarak, ArrayList teki ogrenci bilgilerini dogu yazdiriniz.
-        // Daha sonra butun ogrencilerin nit ortalamasini bir metod araciligi bularak main de yazdiriniz.
+        // Daha sonra butun ogrencilerin not ortalamasini bir metod araciligi bularak main de yazdiriniz.
 
         // 2. kisim
         Student ogr1 = new Student();
@@ -31,7 +30,6 @@ public class Task1 {
 
         BilgiYazdir(ogrenciler);
 
-
     }
 
     //3.kisim
@@ -44,7 +42,6 @@ public class Task1 {
 
             }
         }
-
     public static double OrtalamaBul(ArrayList<Student>ogrenciler)
     {
                 double ort= 0;

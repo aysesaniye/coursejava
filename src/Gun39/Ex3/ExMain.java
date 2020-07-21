@@ -8,9 +8,9 @@ public class ExMain {
 // 3- 2 kitap tanımlayınız bir ArrayList e atınız.
 // 4- bir kategoriye listeletiniz.
 
-import java.util.ArrayList;
 
-    public class Ex3Main {
+
+   /* public class Ex3Main {
 
         public static void main(String[] args) {
             Kitap kit1 = new Kitap();
@@ -29,10 +29,6 @@ import java.util.ArrayList;
             {
                 if (k.kategori == KitapKategori.ROMAN)
                 {
-                    System.out.println("k.name = " + k.name);
+                    System.out.println("k.name = " + k.name);*/
                 }
-            }
 
-        }
-    }
-}
