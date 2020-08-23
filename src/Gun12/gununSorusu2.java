@@ -13,8 +13,12 @@ public class gununSorusu2 {
 
         if (x < -2 || x > 8 || y > 4 || y < 1)
             System.out.println("Disinda");
+
+        if (x > -2 && x < 8 && y < 4 && y > 1 )
+        System.out.println("icinde");
+
+
         else
-            if (y < 4 && y > 1 && x < 8 && x > -2)
                 System.out.println("Cizgi uzerinde");
     }
 }

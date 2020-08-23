@@ -5,8 +5,8 @@ import java.util.Scanner;
 public class JavaRandom8 {
     public static void main(String[] args) {
 
-        //Girilen bir sayiya kadar random sayi ureterek tahmin etmeye calisiniz.
-        //kullanici bilirse tebrikler yazdiriniz.
+        // Girilen bir sayiya kadar random sayi ureterek tahmin etmeye calisiniz.
+        // kullanici bilirse tebrikler yazdiriniz.
 
         Scanner oku =new Scanner(System.in);
         System.out.println("sayi =");

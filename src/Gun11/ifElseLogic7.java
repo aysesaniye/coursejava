@@ -10,10 +10,10 @@ public class ifElseLogic7 {
         // 2 saat girildiginde ucreti yazdiriniz.
 
         Scanner oku = new Scanner(System.in);
-        System.out.print("Saati giriniz");
+        System.out.print("Saati giriniz =");
         int saat = oku.nextInt();
 
-        if (saat < 2) {
+        if (saat <= 2) {
             System.out.println("5€");
         } else if (saat <= 5) {
             System.out.println("10€");

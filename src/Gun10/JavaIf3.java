@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class JavaIf3 {
     public static void main(String[] args) {
-        //Girilen iki sayidan buyuk olanini ekrana yazdiriniz, esit ise esit yazdiriniz.
+        // Girilen iki sayidan buyuk olanini ekrana yazdiriniz, esit ise esit yazdiriniz.
 
         Scanner oku= new Scanner(System.in);
         System.out.print("Birinci Sayiyi giriniz=");

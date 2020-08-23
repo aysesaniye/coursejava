@@ -1,10 +1,11 @@
 package Gun32.example.Ex1;
 
 public class Ex1 {
-
-    // 1.Adim: Person isimli bir class yazınız:fields: name, surname, age; olsun.
-    // 2.Adim: main de 2 tane bu sınıftan nesne oluşturup değer atayınız.
-    // 3.Adim:
+    // 1.Adım  :Person isimli bir class yazınız:fields: name, surname, age; olsun.
+    // 2.Adım  :main de 2 tane bu sınıftan nesne oluşturup değer atayınız.
+    // 3.Adım  :getBirthYear isminde Person a ait bir metod yazınız, çalıştığında kişinin doğum yılını versin.
+    // 4.Adım  :getInitials isminde kişiniz adının ilk harfi.soyadının ilk harfi şeklinde (Büyük harf) veren metodu yazınız
+        // örnek ahmet demir : A.D.
 
     public static void main(String[] args) {
         Person kisi1=new Person();
@@ -28,18 +29,18 @@ public class Ex1 {
         System.out.println("kisi2.age = " + kisi2.age);
 
         //2.Yöntemin kullanılması : kendi başına yazdır, fakat her nesne için böyle yazarsak oldukça karışır
-        BilgiYadir(kisi1);
+        BilgiYadir(kisi1); // bu yöntemde parametre göndermek zorun kalıyorum, uğraştırıcı
         BilgiYadir(kisi2);
 
         //3.Yöntemin main de kullanılması
-        kisi1.BilgiYadir();
+        kisi1.BilgiYadir(); // bu yöntemde parametre zaten kendisin içinde, büyük kolaylık
         kisi2.BilgiYadir();
 
-        System.out.println("kisi1 in dogum yili = " + kisi1.getBirthYear());
-        System.out.println("kisi2 in dogum yili = " + kisi2.getBirthYear());
+        System.out.println("kisi1 in doğum yılı = " + kisi1.getBirthYear());
+        System.out.println("kisi2 in doğum yılı = " + kisi2.getBirthYear());
 
-        System.out.println("kisi1.getInitials() = " +kisi1.getBirthYear());
-        System.out.println("kisi2.getInitials() = " +kisi2.getBirthYear());
+        System.out.println("kisi1.getInitials() = " + kisi1.getInitials());
+        System.out.println("kisi2.getInitials() = " + kisi2.getInitials());
     }
 
     //2.Yöntem iyi metod kullandık, fakat
@@ -49,8 +50,6 @@ public class Ex1 {
         System.out.println("metod.surname = " + kisi.surname);
         System.out.println("metod.age = " + kisi.age);
     }
-
-
 }
 
 class Person
@@ -64,13 +63,13 @@ class Person
     void BilgiYadir()  //3.Yöntem ait olduğu class a ekleniyor ve en iyi yöntemi bulmuş oluyoruz
     {
         System.out.print("kisi.name = " + name);
-        System.out.print("kisi.surname = " + surname);
-        System.out.println("kisi.age = " + age);
+        System.out.print(" kisi.surname = " + surname);
+        System.out.println(" kisi.age = " + age);
     }
 
-    public int getBirthYear()
+    int getBirthYear()
     {
-        return 2020 - age;
+        return 2020-age;
     }
 
     // 4.Adım  :getInitials isminde kişiniz adının ilk harfi.soyadının ilk harfi şeklinde (Büyük harf) veren metodu yazınız
@@ -79,5 +78,7 @@ class Person
     {
         return name.toUpperCase().charAt(0)+"."+surname.toUpperCase().charAt(0)+".";
     }
+
 }
+
 

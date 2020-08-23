@@ -1,22 +1,23 @@
 package Gun36.task2;
 
+import Gun36.tasks.task2.Banka;
+
 public class Task2 {
-    // Bir banka class i tanimlayiniz.
+    //Bir banka class ı tanımlayınız.
     // 3 adet field ekleyiniz.
     // 3 adet constructor ekleyin.
-    // toString metodu olusturun.
-    // 3 tane nesne olusturup mainde yazdiriniz.
+    // toString metodu oluşturun.
+    // 3 tane nesne oluşturup mainde yazdırınız.
+
 
     public static void main(String[] args) {
-        Banka banka1 = new Banka("Yapi Kredi", 1900, 1980);
-        Banka banka2 = new Banka("Is bankasi", 1960);
-        Banka banka3 = new Banka("Ziraat Bankasi");
+        Gun36.tasks.task2.Banka banka1 = new Gun36.tasks.task2.Banka("Yapı Kredi",1900,1980);
+        Gun36.tasks.task2.Banka banka2 = new Gun36.tasks.task2.Banka("İş bankası",1960);
+        Gun36.tasks.task2.Banka banka3 = new Banka("Ziraat Bankası");
 
         System.out.println("banka1 = " + banka1);
         System.out.println("banka2 = " + banka2);
         System.out.println("banka3 = " + banka3);
     }
 
-    }
-
-
+}

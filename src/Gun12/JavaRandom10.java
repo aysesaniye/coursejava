@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class JavaRandom10 {
     public static void main(String[] args) {
+
         // Kullanicidan alt ve ust degeri tek bir satirda arasinda bosluk olarak (once min bir bosluk
         // Sonra max degeri alarak sayi uretiniz ve ekrana yazdiriniz
         // 34 56 seklinde bir satirda girecek min ve max 1   5 75

@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class ifElse2 {
     public static void main(String[] args) {
-        //Girilen vize (%40) ve final (%60) notunu okuyarak ortalamayi bulunuz
-        //Ortalama 60 dan buyuk ise gectiniz,tebrikler yazdiriniz, degilse
-        //butunlemeye kaldiniz seklinde yazdiriniz
+
+        // Girilen vize (%40) ve final (%60) notunu okuyarak ortalamayi bulunuz
+        // Ortalama 60 dan buyuk ise gectiniz,tebrikler yazdiriniz, degilse
+        // butunlemeye kaldiniz seklinde yazdiriniz
 
         Scanner oku =new Scanner(System.in);
         System.out.println("Vize notunuzu giriniz=");

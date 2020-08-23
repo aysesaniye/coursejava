@@ -11,4 +11,5 @@ public class Bilgiler {
     // private: Sadece içinde bulunduğu sınıf tan erişilebilir.(field, metodlarda)
 
     // protected aynı default gibi çalışır, bir farkı var onu Inheritance (kalıtım) konusunda göreceğiz.
+
 }

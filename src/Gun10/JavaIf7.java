@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class JavaIf7
 {
     public static void main(String[] args) {
-        //Girilen bir sayinin onlar basamaginin tek mi cift mi oldugunu bulunuz.
+
+        // Girilen bir sayinin onlar basamaginin tek mi cift mi oldugunu bulunuz.
 
         Scanner oku = new Scanner(System.in);
         System.out.println("Bir sayi giriniz");

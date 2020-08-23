@@ -2,39 +2,47 @@ package Gun34.tasks.task1;
 
 import java.util.ArrayList;
 
-    // bir tür yapısı:class
-    public class Student {
-        int id;
-        String name;
-        String surName;
-        int classroom;
+public class Student {
+    String name;
+    int maxAlabilecegiDersSaatMiktari;
+    ArrayList<Lesson> studentLessons=new ArrayList<>();
 
-        //Conructor : yapıcı metod: ilk oluşmada yapılması
-        // istenen işlemlerin yazıldığı metod.
-        public Student(int id, String name, String surName, int classroom)
-        {
-            //this : clasın kendisini gösteriyor yani Student ı gösteriyor.
-            this.id = id;
-            this.name = name;
-            this.surName = surName;
-            this.classroom = classroom;
+    public static Student createStudent(String name, int maxAlabilecegiDersSaatMiktari)
+    {
+        Student ogrenci=new Student();
+        ogrenci.name=name;
+        ogrenci.maxAlabilecegiDersSaatMiktari=maxAlabilecegiDersSaatMiktari;
 
-            //System.out.println("consructor çalıştı.");
-        }
-
-        //2.Yöntem için yazıldı.
-//      public static Student createStudent(int id, String name, String surName,int classroom)
-//      {
-//          Student ogrenci1=new Student();
-//          ogrenci1.id=id;
-//          ogrenci1.name=name;
-//          ogrenci1.surName=surName;
-//          ogrenci1.classroom=classroom;
-//
-//          return ogrenci1;
-//      }
+        return ogrenci;
     }
 
+    public void lessonAdd(Lesson ders)
+    {
+        int ogrenciToplamDersSaati=0;
+        // öğrencinin bu ana kadar aldığı derslerin saatlerinin toplamı
+        for(Lesson aldigiDers :  studentLessons){
+            ogrenciToplamDersSaati += aldigiDers.hour;
+        }
 
+        if ( ogrenciToplamDersSaati + ders.hour < maxAlabilecegiDersSaatMiktari) {
+            studentLessons.add(ders);
+        }
+        else {
+            System.out.println(name+" "+ders.name+" Max saati aştınız.ders Eklenemez");
+        }
+    }
 
+    public void printLessons()
+    {
+        System.out.println(name+" isimli öğrencinin aldığı dersler");
 
+        int aldigiToplamSaat=0;
+        for(Lesson ders: studentLessons)
+        {
+            System.out.println(ders.name+" "+ders.hour);
+            aldigiToplamSaat+=ders.hour;
+        }
+        System.out.println("aldigiToplamSaat = " + aldigiToplamSaat);
+
+    }
+}

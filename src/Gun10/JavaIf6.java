@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class JavaIf6 {
     public static void main(String[] args) {
-        //Girilen 3 sayidan en buyuk olanini bulunuz.
+
+        // Girilen 3 sayidan en buyuk olanini bulunuz.
 
         Scanner oku = new Scanner(System.in);
         System.out.println("Birinci sayiyi giriniz =");

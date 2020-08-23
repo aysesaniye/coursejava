@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class ifElseLogic8 {
     public static void main(String[] args) {
-        // Girilen 2 sayiyi kullanicidan aldiktan sonra'
+
+        // Girilen 2 sayiyi kullanicidan aldiktan sonra
         // Toplama icin T, cikarma icin C, carpma icin P, bolme icin B
         // harflerini alarak istege uygun olan islemi yaptirip
         // sonucu ekrana yazdiriniz.
@@ -20,8 +21,17 @@ public class ifElseLogic8 {
         Scanner oku2 = new Scanner(System.in);
         String islem = oku2.next();
 
-        if(islem.equalsIgnoreCase("T"));
-        System.out.println("toplam =" +sayi1+sayi2);
+        if(islem.equalsIgnoreCase("T"))
+        System.out.println("toplam =" +(sayi1+sayi2));
+        else
+            if (islem.equalsIgnoreCase("C"))
+                System.out.println("cikarma =" +(sayi1-sayi2));
+            else
+                if (islem.equalsIgnoreCase("P"))
+                    System.out.println("carpma =" +(sayi1*sayi2));
+                else
+                    if (islem.equalsIgnoreCase("B"))
+        System.out.println("bolme =" +(sayi1/sayi2));
 
     }
 

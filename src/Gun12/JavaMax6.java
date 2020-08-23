@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class JavaMax6 {
     public static void main(String[] args) {
 
-        //Math.max yontemi ile girilen 3 sayidan buyuk olanini bulunuz.
+        // Math.max yontemi ile girilen 3 sayidan buyuk olanini bulunuz.
 
         Scanner oku = new Scanner(System.in);
         System.out.print("a degeri =");

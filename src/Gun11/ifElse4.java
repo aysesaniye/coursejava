@@ -4,8 +4,9 @@ import java.util.Scanner;
 
 public class ifElse4 {
     public static void main(String[] args) {
-        //girilen bir sayinin pozitif mi negatif mi oldugunu yazdiriniz.
-        //3 ihtimal var p,n,sifir
+
+        // girilen bir sayinin pozitif mi negatif mi oldugunu yazdiriniz.
+        // 3 ihtimal var p,n,sifir
 
         Scanner oku= new Scanner(System.in);
         System.out.println("Sayi giriniz =");

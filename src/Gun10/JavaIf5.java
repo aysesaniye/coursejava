@@ -4,11 +4,16 @@ import java.util.Scanner;
 
 public class JavaIf5 {
     public static void main(String[] args) {
-      //Girilen bir sayinin birler basamagini yazi ile aliniz
+
+        //Girilen bir sayinin birler basamagini yazi ile aliniz
 
         Scanner oku=new Scanner(System.in);
         System.out.println("Bir sayi giriniz = ");
         int sayi = oku.nextInt();
+
+        if(sayi < 0)  // bu bolum sayi negatifse calisacak
+            sayi = sayi * -1;  // sayi = -sayi;
+
         int birler = sayi %10;
 
         if (birler == 0) System.out.println("sifir");

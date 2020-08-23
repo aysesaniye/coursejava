@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class ifElseLogic6 {
     public static void main(String[] args) {
-        //Girilen yeni bir password un kurallara uygunlugunu kontrol ediniz.
-        //kurallar :
+        // Girilen yeni bir password un kurallara uygunlugunu kontrol ediniz.
+        // kurallar :
         // 1) en az 8 karakter olmali
         // 2) icinde pass kelimesi olmamali
         // 3) en fazla 12 karakter olmali
